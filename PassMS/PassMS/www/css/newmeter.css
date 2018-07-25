@@ -1,10 +1,8 @@
 ﻿
 .panel h1 {
     padding-top: 5px;
-    width: 100%;
-    height: 25%;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 a {
@@ -13,7 +11,7 @@ a {
     top: 10px;
 } 
 span{
-    font-size: 50px;
+    font-size: 5px;
     color: black;
 }
 
@@ -24,9 +22,9 @@ select {
     background-color: #22232a;
     border-radius: 45px;
     font-size: 15px;
-    height: 50px;
+    height: 25px;
     border: none;
-    width: calc(95% + 10px);
+    width: 95%;
     text-align: left;
     margin: 0px auto;
     margin-bottom: 10px;
@@ -39,7 +37,7 @@ select {
     background-color: #22232a;
     border-radius: 45px;
     font-size: 15px;
-    height: 50px;
+    height: 25px;
     border: none;
     width: 95%;
     text-align: left;
@@ -54,7 +52,7 @@ select {
     background-color: #22232a;
     border-radius: 45px;
     font-size: 15px;
-    height: 50px;
+    height: 25px;
     border: none;
     width: 95%;
     text-align: left;
@@ -68,7 +66,7 @@ select {
     border-radius: 10px;
     box-shadow: 0 0 10px black;
     background: #141519;
-    margin: 20% auto;
+    margin: 15% auto;
     text-align: center;
 }
 
@@ -77,14 +75,14 @@ select {
         background-color: #8bc34a;
         border-radius: 45px;
         position: relative;
-        line-height: 50px;
+        line-height: 25px;
         text-align: center;
         font-weight: bold;
         color: white;
         margin: 0px auto;
         cursor: pointer;
         border: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
         .panel .submit:active {

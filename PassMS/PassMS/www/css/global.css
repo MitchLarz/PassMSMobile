@@ -1,5 +1,7 @@
 ﻿html, body {
+    margin:0;
     height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -10,7 +12,6 @@ body {
 
 .sidenav {
     height: 100%;
-    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -18,16 +19,12 @@ body {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.2s;
-    padding-top: 20px;
+    width:0;
 }
 
     .sidenav a {
-        text-decoration: none;
-        font-size: 100px;
-        height:150px;
-        color: #818181;
         display: block;
-        transition: 0.3s;
+        transition: 0.2s;
     }
 
         .sidenav a:hover {
@@ -36,15 +33,15 @@ body {
 
     #close {
         float:right;
-        font-size: 125px;
-        margin-left: 50px;
-        margin-bottom: 50px;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-bottom: 5px;
         color:white;
     }
 
 #main {
     transition: margin-left .2s;
-    padding: 16px;
+    padding: 6px;
     overflow: visible;
     position: fixed;
     width:100%;
@@ -64,9 +61,8 @@ body {
     height: 10%;
     width: 100%;
     display: block;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navigation{
@@ -76,9 +72,16 @@ body {
     text-align: center;
 }
 
+.botnavigation {
+    height: 10%;
+    width: 100%;
+    display: block;
+    bottom: 10px;
+    padding-right: 15px;
+}
+
 #navlogo {
     float:left;
-    width: 60%;
     max-width: 200px;
     height: 50%;
     max-height: 200px;
@@ -86,6 +89,24 @@ body {
 }
 
 #nav-gliph {
-    font-size: 100px;
-    cursor: pointer;
+    top:10px;
+    left:10px;
+    position:absolute;
+}
+
+#logout {
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    color: white;
+}
+
+#userpic {
+    color:white;
+}
+
+#logouttext {
+    font-size: 10px;
+    color: white;
+    padding-left: 2px;
 }
