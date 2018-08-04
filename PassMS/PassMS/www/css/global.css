@@ -1,13 +1,13 @@
 ﻿html, body {
     margin:0;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to bottom right, #009900, #3366ff);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .sidenav {
